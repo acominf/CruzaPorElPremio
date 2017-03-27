@@ -1,42 +1,43 @@
 ### Objetivo del juego/aplicación
-El objetivo del juego/aplicación es ...
+El objetivo de este juego es que el jugador cruze los escenarios sin ser arrollado o sin caer (dependiendo el nivel en que se encuentre) y a la vez atrapar los premios e el camino para conseguir la mayor cantidad de puntos posible.
 
 ### Descripción del juego/aplicación
-La descripción del juego/aplicación es ...
+El juego consta de tres niveles diferentes:
+
+**Nivel 1:** Este nivel consta de cruzar una calle sin ser arrollado, en el camino se pueden recoger las monedas que aparezcan para sumar mas puntos.
 
 ### Clases principales y sus características
-1. Clase 1
-* caracteristica1
-* caracteristica2
-* caracteristica3
+1. Mundo
+* Inicializa el juego.
+* Muestra las pantallas de presentacion.
+* Dibuja el escenario correspondiente al nivel.
 
-2. Clase 2
-* caracteristica1
-* caracteristica2
-* caracteristica3
+2. Jugador
+* 
+* 
+* 
 
-3. Clase 3
-* caracteristica1
-* caracteristica2
-* caracteristica3
+3. Nivel 1
+* Dibuja el escenario del primer nivel.
+* 
+* 
 
-4. Clase 4
-* caracteristica1
-* caracteristica2
-* caracteristica3
+4. Nivel 2
+* Dibuja el escenario del segundo nivel.
+* 
+* 
 
-5. Clase 5
-* caracteristica1
-* caracteristica2
-* caracteristica3
+5. Nivel 3
+* Dibuja el escenario del tercer nivel.
+* 
+* 
 
 ### Diagrama de clases
 ![Diagrama de clases](url-del-diagrama.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
-- Nombre completo del autor 1 (@nombreUsuarioGitHub)
-- Nombre completo del autor 2 (@nombreUsuarioGitHub)
+- Sonia Virginia Hernandez Huerta (@SoniaHernandez2010)
 
 ### Materia(s)
 - Programación Orientada a Objetos
