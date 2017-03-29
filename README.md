@@ -4,13 +4,14 @@ El objetivo de este juego es que el jugador cruze los escenarios sin ser arrolla
 ### Descripción del juego/aplicación
 El juego consta de tres niveles diferentes:
 
-**Nivel 1:** Este nivel consta de cruzar una calle sin ser arrollado.
+**Nivel 1:** El objetivo de este nivel consta de cruzar una calle sin ser arrollado.
 
 **Nivel 2:** Para este nivel se tiene un rio, hay que cruzarlo arriba de los troncos que pasan sin caer al agua.
 
 **Nivel 3:** En este ultimo nivel se encuentran en un cielo y hay que subir por las nubes hasta llegar a donde esta el arcoiris.
 
 En el camino se pueden recoger las monedas que aparezcan para sumar mas puntos, tambien habra oportunidad para obtener vidas extras tomando los corazones que aparezcan.
+Para cada nivel se cuenta con 2 vidas solamente, si se terminan comienzan de nuevo desde el primer nivel.
 
 ### Clases principales y sus características
 1. Mundo
@@ -19,24 +20,21 @@ En el camino se pueden recoger las monedas que aparezcan para sumar mas puntos, 
 * Dibuja el escenario correspondiente al nivel.
 
 2. Jugador
-* 
-* 
-* 
+* Mueve el personaje por el juego.
+* Guarda los puntos que se vayan acumulando.
+* Cuenta las vidas restantes.
 
 3. Nivel 1
 * Dibuja el escenario del primer nivel.
-* 
-* 
+* Verifica cuando se toma alguna moneda o vida.
 
 4. Nivel 2
 * Dibuja el escenario del segundo nivel.
-* 
-* 
+* Verifica cuando se obtiene alguna moneda o vida.
 
 5. Nivel 3
 * Dibuja el escenario del tercer nivel.
-* 
-* 
+* Verifica cuando se obtiene alguna moneda o vida.
 
 ### Diagrama de clases
 ![Diagrama de clases](url-del-diagrama.png)
