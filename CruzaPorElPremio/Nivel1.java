@@ -1,11 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Nivel1 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Nivel1 extends World
 {
 
@@ -26,5 +21,15 @@ public class Nivel1 extends World
         addObject(new Calle(), 450, 450);
         addObject(new Calle(), 150, 150);
         addObject(new Calle(), 450, 150);
+        
+        addObject(new Carro1(), 25, 525);
+        addObject(new Taxi(), 575, 475);
+        addObject(new Carro2(), 25, 425);
+        addObject(new Carro3(), 575, 375);
+        
+        addObject(new Carro1(), 25, 225);
+        addObject(new Taxi(), 575, 175);
+        addObject(new Carro2(), 25, 125);
+        addObject(new Carro3(), 575, 75);
     }
 }

@@ -1,11 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Cerdo here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Cerdo extends Personaje
 {
     /**
@@ -20,8 +15,7 @@ public class Cerdo extends Personaje
         {
             Greenfoot.setWorld(new Nivel1());
             
-            World mundo = this.getWorld();
-            mundo.addObject(this, 300, 575);
+            this.setLocation(300, 575);
         }
     }       
 }
