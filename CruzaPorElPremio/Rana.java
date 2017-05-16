@@ -1,18 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Pato here.
+ * Write a description of class Rana here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Pato extends Personaje
+public class Rana extends Personaje
 {
     /**
-     * Act - do whatever the Pato wants to do. This method is called whenever
+     * Act - do whatever the Rana wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
     @Override
     public void act() 
     {
@@ -23,5 +22,5 @@ public class Pato extends Personaje
             World mundo = this.getWorld();
             mundo.addObject(this, 300, 575);
         }
-    }    
+    }      
 }

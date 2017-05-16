@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class BotonPlay here.
+ * Write a description of class Calle here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class BotonPlay extends Actor
+public class Calle extends Actor
 {
     /**
-     * Act - do whatever the BotonPlay wants to do. This method is called whenever
+     * Act - do whatever the Calle wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
@@ -17,10 +17,5 @@ public class BotonPlay extends Actor
     public void act() 
     {
         // Add your action code here.
-        if(Greenfoot.mouseClicked(this))
-        {
-             Greenfoot.setWorld(new Personajes());
-        }
-        
     }    
 }

@@ -18,6 +18,7 @@ public class Presentacion extends World
         super(600,600,1);
     }
     
+    @Override
     public void act()
     {
         this.showText("Cruza por el premio", 300, 200);

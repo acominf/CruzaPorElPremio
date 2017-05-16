@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Pato here.
+ * Write a description of class Ardilla here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Pato extends Personaje
+public class Ardilla extends Personaje
 {
     /**
-     * Act - do whatever the Pato wants to do. This method is called whenever
+     * Act - do whatever the Ardilla wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
@@ -23,5 +23,5 @@ public class Pato extends Personaje
             World mundo = this.getWorld();
             mundo.addObject(this, 300, 575);
         }
-    }    
+    }      
 }

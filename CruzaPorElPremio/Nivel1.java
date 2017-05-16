@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Inicio here.
+ * Write a description of class Nivel1 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Inicio extends World
+public class Nivel1 extends World
 {
 
     /**
-     * Constructor for objects of class Inicio.
+     * Constructor for objects of class Nivel1.
      * 
      */
-    public Inicio()
+    public Nivel1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 600, 1); 
@@ -22,9 +22,9 @@ public class Inicio extends World
     @Override
     public void act()
     {
-        addObject(new BotonPlay(), 300, 300);
-        this.showText("Oprima el boton para iniciar el juego", 300,200);
-        
+        addObject(new Calle(), 150, 450);
+        addObject(new Calle(), 450, 450);
+        addObject(new Calle(), 150, 150);
+        addObject(new Calle(), 450, 150);
     }
-    
 }
