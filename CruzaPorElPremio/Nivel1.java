@@ -17,19 +17,38 @@ public class Nivel1 extends World
     @Override
     public void act()
     {
+        int ganar = 0;
+        int vidas = 3;
+        int puntos = 0;
+        
+        Carro1 c1 = new Carro1();
+        Carro1 c2 = new Carro1();
+        Carro2 c3 = new Carro2();
+        Carro2 c4 = new Carro2();
+        Carro3 c5 = new Carro3();
+        Carro3 c6 = new Carro3();
+        Taxi t1 = new Taxi();
+        Taxi t2 = new Taxi();
+        
         addObject(new Calle(), 150, 450);
         addObject(new Calle(), 450, 450);
         addObject(new Calle(), 150, 150);
         addObject(new Calle(), 450, 150);
         
-        addObject(new Carro1(), 25, 525);
-        addObject(new Taxi(), 575, 475);
-        addObject(new Carro2(), 25, 425);
-        addObject(new Carro3(), 575, 375);
+        addObject(c1, 25, 525);
+        addObject(t1, 575, 475);
+        addObject(c3, 25, 425);
+        addObject(c5, 575, 375);
         
-        addObject(new Carro1(), 25, 225);
-        addObject(new Taxi(), 575, 175);
-        addObject(new Carro2(), 25, 125);
-        addObject(new Carro3(), 575, 75);
+        addObject(c2, 25, 225);
+        addObject(t2, 575, 175);
+        addObject(c4, 25, 125);
+        addObject(c6, 575, 75);
+        
+        this.showText("Nivel: 1", 50, 20);
+        this.showText("Vidas: " + vidas, 50, 40);
+        this.showText("Puntos: " + puntos, 500, 20);
+        
+        
     }
 }

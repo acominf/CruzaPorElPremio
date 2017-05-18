@@ -13,4 +13,17 @@ public class Nivel2 extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 600, 1); 
     }
+    
+    
+    @Override
+    public void act()
+    {
+        Tronco t1 = new Tronco();
+        Tronco t2 = new Tronco();
+        Tronco t3 = new Tronco();
+        Tronco t4 = new Tronco();
+        Tronco t5 = new Tronco();
+        Tronco t6 = new Tronco();
+        
+    }
 }
