@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Taxi extends Actor
+public class Taxi extends Carro_Der
 {
     /**
      * Act - do whatever the Taxi wants to do. This method is called whenever

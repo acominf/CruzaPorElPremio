@@ -3,11 +3,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Nivel1 extends World
 {
-
-    /**
-     * Constructor for objects of class Nivel1.
-     * 
-     */
     public Nivel1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
@@ -48,6 +43,7 @@ public class Nivel1 extends World
         this.showText("Nivel: 1", 50, 20);
         this.showText("Vidas: " + vidas, 50, 40);
         this.showText("Puntos: " + puntos, 500, 20);
+        
         
         
     }

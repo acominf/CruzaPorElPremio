@@ -13,28 +13,29 @@ public class Personaje extends Actor
     public void muevete()
     {
         // si presiona flecha derecha
-        if(Greenfoot.isKeyDown("right") && this.getX() < 600)
+        if(Greenfoot.isKeyDown("right") && this.getX() < 575)
         {
             this.setLocation(this.getX() + 5, this.getY() );
         }
         
         // si presiona flecha izquierda
-        if(Greenfoot.isKeyDown("left") && this.getX() > 0)
+        if(Greenfoot.isKeyDown("left") && this.getX() > 25)
         {
             // muevete a la derecha
             this.setLocation(this.getX() - 5, this.getY() );
         }
         
         // si presiona flecha arriba
-        if(Greenfoot.isKeyDown("up") && this.getY() > 0)
+        if(Greenfoot.isKeyDown("up"))
         {
             this.setLocation(this.getX(), this.getY() - 5);
         }
         
         // si presiona flecha abajo
-        if(Greenfoot.isKeyDown("down") && this.getY() < 600)
+        if(Greenfoot.isKeyDown("down") && this.getY() < 575)
         {
             this.setLocation(this.getX(), this.getY() + 5);
         }
+        
     }
 }

@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Carro3 extends Actor
+public class Carro3 extends Carro_Der
 {
     /**
      * Act - do whatever the Carro3 wants to do. This method is called whenever
