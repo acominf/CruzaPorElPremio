@@ -21,6 +21,8 @@ public class Presentacion extends World
     @Override
     public void act()
     {
+        Font f = new Font(20);
+        // GreenfootImage.setFont(f);
         this.showText("Cruza por el premio", 300, 200);
         this.showText("Presione 'ENTER' para continuar", 300, 300);
         

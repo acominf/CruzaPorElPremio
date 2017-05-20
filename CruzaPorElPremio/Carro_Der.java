@@ -1,19 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Carro_Der here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Carro_Der extends Actor
 {
-    private int incx;
-    
-    public Carro_Der()
-    {
-        incx = 10;
-    }
     
     @Override
     public void act() 
@@ -21,7 +10,7 @@ public class Carro_Der extends Actor
         // Add your action code here.
     }
     
-    public void muevete()
+    public void muevete(int incx)
     {
        int posx = this.getX();
        

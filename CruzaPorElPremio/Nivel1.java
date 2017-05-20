@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.List;
 
 public class Nivel1 extends World
 {
@@ -7,6 +7,7 @@ public class Nivel1 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 600, 1); 
+        dibujate();
     }
     
     @Override
@@ -16,6 +17,17 @@ public class Nivel1 extends World
         int vidas = 3;
         int puntos = 0;
         
+        this.showText("Nivel: 1", 50, 20);
+        this.showText("Vidas: " + vidas, 50, 40);
+        this.showText("Puntos: " + puntos, 500, 20);
+        
+       //  List lista = this.getObjects(Personaje.class);
+        
+        
+    }
+    
+    public void dibujate()
+    {
         Carro1 c1 = new Carro1();
         Carro1 c2 = new Carro1();
         Carro2 c3 = new Carro2();
@@ -30,6 +42,7 @@ public class Nivel1 extends World
         addObject(new Calle(), 150, 150);
         addObject(new Calle(), 450, 150);
         
+        
         addObject(c1, 25, 525);
         addObject(t1, 575, 475);
         addObject(c3, 25, 425);
@@ -39,12 +52,5 @@ public class Nivel1 extends World
         addObject(t2, 575, 175);
         addObject(c4, 25, 125);
         addObject(c6, 575, 75);
-        
-        this.showText("Nivel: 1", 50, 20);
-        this.showText("Vidas: " + vidas, 50, 40);
-        this.showText("Puntos: " + puntos, 500, 20);
-        
-        
-        
     }
 }
