@@ -1,8 +1,9 @@
 #BlueJ class context
 comment0.target=Nivel2
-comment1.params=
-comment1.target=Nivel2()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Nivel2.\r\n\ \r\n
+comment1.params=p\ v
+comment1.target=Nivel2(int,\ int)
 comment2.params=
 comment2.target=void\ act()
-numComments=3
+comment3.params=
+comment3.target=void\ dibujate()
+numComments=4

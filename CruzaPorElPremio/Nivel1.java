@@ -3,27 +3,37 @@ import java.util.List;
 
 public class Nivel1 extends World
 {
+    private int vidas;
+    private int puntos;
+    
     public Nivel1()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 600, 1); 
         dibujate();
+        vidas = 3;
+        puntos = 0;
     }
     
     @Override
     public void act()
     {
-        int ganar = 0;
-        int vidas = 3;
-        int puntos = 0;
-        
         this.showText("Nivel: 1", 50, 20);
         this.showText("Vidas: " + vidas, 50, 40);
         this.showText("Puntos: " + puntos, 500, 20);
         
-       //  List lista = this.getObjects(Personaje.class);
-        
-        
+       List lista = this.getObjects(Personaje.class);
+       Object obj = lista.get(0);
+       Personaje p = (Personaje)obj;
+       
+       if (p.isAtEdge())
+       {
+           puntos += 1000;
+           Nivel2 nivel2 = new Nivel2(puntos, vidas);
+           Greenfoot.setWorld(nivel2);
+           
+           nivel2.addObject(p, 300, 575);
+       }
     }
     
     public void dibujate()
