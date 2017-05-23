@@ -1,19 +1,43 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Tronco here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Tronco extends Actor
 {
-    /**
-     * Act - do whatever the Tronco wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
     public void act() 
     {
         // Add your action code here.
     }    
+    
+    public void muevete(int incx)
+    {
+        int posx = this.getX();
+        
+        if(posx == 25)
+        {
+            int nuevox = posx + incx;
+        
+            World mundo = this.getWorld();
+       
+            if(nuevox > mundo.getWidth())
+            {
+                nuevox = 25;
+            }
+       
+            this.setLocation(nuevox, this.getY());
+        }
+        
+        if (posx == 575)
+        {
+            int nuevox = posx - incx;
+        
+            World mundo = this.getWorld();
+       
+            if(nuevox < 0)
+            {
+                nuevox = 575;
+            }
+       
+            this.setLocation(nuevox, this.getY());
+        }
+    }
 }

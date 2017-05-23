@@ -1,27 +1,27 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
-public class Carro_Der extends Actor
+public class Tronco_Izq extends Tronco
 {
     @Override
     public void act() 
     {
         // Add your action code here.
     }
-    
+    /*
     public void muevete(int incx)
     {
        int posx = this.getX();
        
-       int nuevox = posx - incx;
+       int nuevox = posx + incx;
         
        World mundo = this.getWorld();
        
-       if(nuevox < 0)
+       if(nuevox > mundo.getWidth())
         {
-            nuevox = 575;
+            nuevox = 25;
         }
        
        this.setLocation(nuevox, this.getY());
-    }
+    }*/
 }

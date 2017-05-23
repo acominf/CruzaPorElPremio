@@ -24,23 +24,23 @@ public class Nivel2 extends World
     
     public void dibujate()
     {
-        Tronco t1 = new Tronco();
-        Tronco t2 = new Tronco();
-        Tronco t3 = new Tronco();
-        Tronco t4 = new Tronco();
-        Tronco t5 = new Tronco();
-        Tronco t6 = new Tronco();
-        Tronco t7 = new Tronco();
-        Tronco t8 = new Tronco();
+        Tronco1 t1 = new Tronco1();
+        Tronco2 t2 = new Tronco2();
+        Tronco3 t3 = new Tronco3();
+        Tronco4 t4 = new Tronco4();
+        Tronco1 t5 = new Tronco1();
+        Tronco2 t6 = new Tronco2();
+        Tronco3 t7 = new Tronco3();
+        Tronco4 t8 = new Tronco4();
         
         addObject(t1, 25, 525);
-        addObject(t2, 575, 475);
-        addObject(t3, 25, 425);
+        addObject(t3, 575, 475);
+        addObject(t2, 25, 425);
         addObject(t4, 575, 375);
         
         addObject(t5, 25, 225);
-        addObject(t6, 575, 175);
-        addObject(t7, 25, 125);
+        addObject(t7, 575, 175);
+        addObject(t6, 25, 125);
         addObject(t8, 575, 75);
     }
 }

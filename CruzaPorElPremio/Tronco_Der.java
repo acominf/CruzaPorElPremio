@@ -1,14 +1,14 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
-public class Carro_Der extends Actor
+public class Tronco_Der extends Tronco
 {
-    @Override
+   @Override
     public void act() 
     {
         // Add your action code here.
     }
-    
+    /*
     public void muevete(int incx)
     {
        int posx = this.getX();
@@ -23,5 +23,5 @@ public class Carro_Der extends Actor
         }
        
        this.setLocation(nuevox, this.getY());
-    }
+    }*/
 }

@@ -37,5 +37,9 @@ public class Personaje extends Actor
             this.setLocation(this.getX(), this.getY() + 5);
         }
         
+        if(this.isTouching(Carro_Izq.class) || this.isTouching(Carro_Der.class))
+        {
+            this.setLocation(300, 575);
+        }
     }
 }
