@@ -3,13 +3,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Tronco_Der extends Tronco
 {
-   @Override
-    public void act() 
+    private int incx;
+    
+    public Tronco_Der(int x)
     {
-        // Add your action code here.
+        incx = x;
     }
     
-    public void muevete(int incx)
+    @Override
+    public void act() 
+    {
+        muevete();
+    }
+    
+    public void muevete()
     {
        int posx = this.getX();
        
@@ -23,5 +30,5 @@ public class Tronco_Der extends Tronco
         }
        
        this.setLocation(nuevox, this.getY());
-    }
+    } 
 }

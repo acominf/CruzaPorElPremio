@@ -78,5 +78,11 @@ public class Personaje extends Actor
             this.setLocation(this.getX(), this.getY() + 5);
         }
         
+        if(vidas == 0)
+        {
+            GameOver go = new GameOver();
+            Greenfoot.setWorld(go);
+        }
+        
     }
 }

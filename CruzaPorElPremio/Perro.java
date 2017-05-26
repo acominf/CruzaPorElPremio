@@ -3,7 +3,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Perro extends Personaje
 {
-    
     @Override
     public void act() 
     {
@@ -15,5 +14,5 @@ public class Perro extends Personaje
             nivel1.addObject(this, 300, 575);
         }
         this.muevete();
-    }     
+    }
 }

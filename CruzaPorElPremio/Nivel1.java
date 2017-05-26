@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-import java.util.List;
+
 
 public class Nivel1 extends World
 {
@@ -58,25 +58,5 @@ public class Nivel1 extends World
         addObject(c4, 25, 125);
         addObject(c6, 575, 75);
     }
-    /*
-    public void modificaPuntos(int inc)
-    {
-        puntos += inc;
-        this.showText("Puntos: " + puntos, 500, 20);
-    }
-   
-    public void modificaVidas(int v)
-    {
-        if(v == 1)
-        {
-            vidas -= 1;
-        }
-        
-        if(v == 2)
-        {
-            vidas += 1;
-        }
-    }
-    */
     
 }

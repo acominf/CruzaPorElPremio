@@ -1,4 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo
+import java.util.List;
 
 
 public class Nivel2 extends World
@@ -17,7 +18,16 @@ public class Nivel2 extends World
     @Override
     public void act()
     {
-       
+        List lista = this.getObjects(Personaje.class);
+        Object obj = lista.get(0);
+        Personaje p = (Personaje)obj;
+        
+        /*
+        if(p.isAtEdge())
+        {
+            
+        }
+       */
     }
     
     public void dibujate()
@@ -35,14 +45,14 @@ public class Nivel2 extends World
         addObject(te3, 300, 275);
         addObject(te4, 300, 25);
         
-        Tronco1 t1 = new Tronco1();
-        Tronco2 t2 = new Tronco2();
-        Tronco3 t3 = new Tronco3();
-        Tronco4 t4 = new Tronco4();
-        Tronco1 t5 = new Tronco1();
-        Tronco2 t6 = new Tronco2();
-        Tronco3 t7 = new Tronco3();
-        Tronco4 t8 = new Tronco4();
+        Tronco_Izq t1 = new Tronco_Izq(2);
+        Tronco_Izq t2 = new Tronco_Izq(1);
+        Tronco_Der t3 = new Tronco_Der(2);
+        Tronco_Der t4 = new Tronco_Der(1);
+        Tronco_Izq t5 = new Tronco_Izq(2);
+        Tronco_Izq t6 = new Tronco_Izq(1);
+        Tronco_Der t7 = new Tronco_Der(2);
+        Tronco_Der t8 = new Tronco_Der(1);
         addObject(t1, 25, 525);
         addObject(t3, 575, 475);
         addObject(t2, 25, 425);
@@ -64,26 +74,5 @@ public class Nivel2 extends World
         addObject(p2, 150, 25);
         addObject(p3, 500, 25);
     }
-    
-    /*
-    public void modificaPuntos(int inc)
-    {
-        puntos += inc;
-        this.showText("Puntos: " + puntos, 500, 20);
-    }
-    
-    public void modificaVidas(int v)
-    {
-        if(v == 1)
-        {
-            vidas -= 1;
-        }
-        
-        if(v == 2)
-        {
-            vidas += 1;
-        }
-    }
-    */
     
 }
