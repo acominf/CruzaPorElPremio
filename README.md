@@ -8,10 +8,9 @@ El juego consta de tres niveles diferentes:
 
 **Nivel 2:** Para este nivel se tiene un rio, hay que cruzarlo arriba de los troncos que pasan sin caer al agua.
 
-**Nivel 3:** En este ultimo nivel se encuentran en un cielo y hay que subir por las nubes hasta llegar a donde esta el arcoiris.
 
 En el camino se pueden recoger las monedas que aparezcan para sumar mas puntos, tambien habra oportunidad para obtener vidas extras tomando los corazones que aparezcan.
-Para cada nivel se cuenta con 2 vidas solamente, si se terminan comienzan de nuevo desde el primer nivel.
+Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el primer nivel.
 
 ### Clases principales y sus características
 1. Mundo
