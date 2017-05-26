@@ -8,7 +8,7 @@ public class Tronco_Izq extends Tronco
     {
         // Add your action code here.
     }
-    /*
+    
     public void muevete(int incx)
     {
        int posx = this.getX();
@@ -23,5 +23,5 @@ public class Tronco_Izq extends Tronco
         }
        
        this.setLocation(nuevox, this.getY());
-    }*/
+    }
 }

@@ -1,6 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-
 public class Cerdo extends Personaje
 {
     
@@ -9,10 +8,10 @@ public class Cerdo extends Personaje
     {
         if(Greenfoot.mouseClicked(this))
         {
-            Nivel1 nivel1 = new Nivel1();
-            Greenfoot.setWorld(nivel1);
+            Nivel1 nivel = new Nivel1();
+            Greenfoot.setWorld(nivel);
             
-            nivel1.addObject(this, 300, 575);
+            nivel.addObject(this, 300, 575);
         }
         this.muevete();
     }       

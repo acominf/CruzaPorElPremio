@@ -3,40 +3,25 @@ import java.util.List;
 
 public class Nivel1 extends World
 {
-    private int vidas;
-    private int puntos;
-    
+   
     public Nivel1()
-    {    
-        super(600, 600, 1); 
+    {     
+        super(600, 600, 1);
         dibujate();
-        vidas = 3;
-        puntos = 0;
     }
     
     @Override
     public void act()
     {
-        this.showText("Nivel: 1", 50, 20);
-        this.showText("Vidas: " + vidas, 50, 40);
-        this.showText("Puntos: " + puntos, 500, 20);
-        
-       List lista = this.getObjects(Personaje.class);
-       Object obj = lista.get(0);
-       Personaje p = (Personaje)obj;
        
-       if (p.isAtEdge())
-       {
-           puntos += 1000;
-           Nivel2 nivel2 = new Nivel2(puntos, vidas);
-           Greenfoot.setWorld(nivel2);
-           
-           nivel2.addObject(p, 300, 575);
-       }
     }
     
     public void dibujate()
     {
+       this.showText("Nivel: 1", 50, 20);
+       this.showText("Vidas: 5", 50, 40);
+       this.showText("Puntos: 0", 500, 20); 
+       
         Carro1 c1 = new Carro1();
         Carro1 c2 = new Carro1();
         Carro2 c3 = new Carro2();
@@ -45,12 +30,23 @@ public class Nivel1 extends World
         Carro3 c6 = new Carro3();
         Taxi t1 = new Taxi();
         Taxi t2 = new Taxi();
+        Vida v1 = new Vida();
+        Vida v2 = new Vida();
+        Puntos p1 = new Puntos();
+        Puntos p2 = new Puntos();
+        Puntos p3 = new Puntos();
         
         addObject(new Calle(), 150, 450);
         addObject(new Calle(), 450, 450);
         addObject(new Calle(), 150, 150);
         addObject(new Calle(), 450, 150);
         
+        addObject(v1, 300, 325);
+        addObject(v2, 150, 25);
+        
+        addObject(p1, 100, 275);
+        addObject(p2, 500, 275);
+        addObject(p3, 500, 25);
         
         addObject(c1, 25, 525);
         addObject(t1, 575, 475);
@@ -62,4 +58,25 @@ public class Nivel1 extends World
         addObject(c4, 25, 125);
         addObject(c6, 575, 75);
     }
+    /*
+    public void modificaPuntos(int inc)
+    {
+        puntos += inc;
+        this.showText("Puntos: " + puntos, 500, 20);
+    }
+   
+    public void modificaVidas(int v)
+    {
+        if(v == 1)
+        {
+            vidas -= 1;
+        }
+        
+        if(v == 2)
+        {
+            vidas += 1;
+        }
+    }
+    */
+    
 }
