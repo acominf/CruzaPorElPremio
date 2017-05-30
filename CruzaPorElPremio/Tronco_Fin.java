@@ -1,11 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.List;
 
-public class Tronco_Der extends Tronco
+public class Tronco_Fin extends Tronco
 {
-    private int incx;
+   private int incx;
     
-    public Tronco_Der(int x)
+    public Tronco_Fin(int x)
     {
         incx = x;
     }
@@ -35,7 +35,7 @@ public class Tronco_Der extends Tronco
        Personaje p = (Personaje)obj;
        if(this.isTouching(Personaje.class))
        {
-           p.muevete(this.getX(), this.getY());
+           p.muevete2(this.getX(), this.getY());
        }
        
     } 

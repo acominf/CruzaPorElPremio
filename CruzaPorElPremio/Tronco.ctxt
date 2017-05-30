@@ -2,6 +2,4 @@
 comment0.target=Tronco
 comment1.params=
 comment1.target=void\ act()
-comment2.params=incx
-comment2.target=void\ muevete(int)
-numComments=3
+numComments=2

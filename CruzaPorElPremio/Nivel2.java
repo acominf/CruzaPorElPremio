@@ -6,6 +6,7 @@ public class Nivel2 extends World
 {
     private int puntos;
     private int vidas;
+    private int posy;
     
     public Nivel2(int p, int v)
     {    
@@ -22,12 +23,26 @@ public class Nivel2 extends World
         Object obj = lista.get(0);
         Personaje p = (Personaje)obj;
         
-        /*
+        posy = p.getY();
+        
         if(p.isAtEdge())
         {
+            puntos = p.regresaPuntos();
             
+            Final f = new Final(puntos);
+            Greenfoot.setWorld(f);
         }
-       */
+        
+        if(posy < 550 && posy > 350)
+        {
+            p.modificaVidas();
+        }
+        
+        if(posy < 250 && posy > 50)
+        {
+            p.modificaVidas();
+        }
+        
     }
     
     public void dibujate()
@@ -48,11 +63,11 @@ public class Nivel2 extends World
         Tronco_Izq t1 = new Tronco_Izq(2);
         Tronco_Izq t2 = new Tronco_Izq(1);
         Tronco_Der t3 = new Tronco_Der(2);
-        Tronco_Der t4 = new Tronco_Der(1);
+        Tronco_Fin t4 = new Tronco_Fin(1);
         Tronco_Izq t5 = new Tronco_Izq(2);
         Tronco_Izq t6 = new Tronco_Izq(1);
         Tronco_Der t7 = new Tronco_Der(2);
-        Tronco_Der t8 = new Tronco_Der(1);
+        Tronco_Fin t8 = new Tronco_Fin(1);
         addObject(t1, 25, 525);
         addObject(t3, 575, 475);
         addObject(t2, 25, 425);
