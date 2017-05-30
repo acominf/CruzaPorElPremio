@@ -1,8 +1,8 @@
 ### Objetivo del juego/aplicación
-El objetivo de este juego es que el jugador cruze los escenarios sin ser arrollado o sin caer (dependiendo el nivel en que se encuentre) y a la vez atrapar los premios e el camino para conseguir la mayor cantidad de puntos posible.
+El objetivo de este juego es que el jugador cruze los escenarios sin ser arrollado o sin caer (dependiendo el nivel en que se encuentre) y a la vez atrapar los premios en el camino para conseguir la mayor cantidad de puntos posible.
 
 ### Descripción del juego/aplicación
-El juego consta de tres niveles diferentes:
+El juego consta de dos niveles diferentes:
 
 **Nivel 1:** El objetivo de este nivel consta de cruzar una calle sin ser arrollado.
 
@@ -13,10 +13,10 @@ En el camino se pueden recoger las monedas que aparezcan para sumar mas puntos, 
 Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el primer nivel.
 
 ### Clases principales y sus características
-1. Mundo
-* Inicializa el juego.
-* Muestra las pantallas de presentacion.
-* Dibuja el escenario correspondiente al nivel.
+1. Personajes
+* Inicializa los personajes del juego.
+* Muestra una pantalla para escoger el personaje deseado.
+* Dibuja el personaje seleccionado en el nivel.
 
 2. Jugador
 * Mueve el personaje por el juego.
@@ -31,9 +31,10 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 * Dibuja el escenario del segundo nivel.
 * Verifica cuando se obtiene alguna moneda o vida.
 
-5. Nivel 3
-* Dibuja el escenario del tercer nivel.
-* Verifica cuando se obtiene alguna moneda o vida.
+5. Autos
+* Inicializa los autos.
+* Dibuja los autos en el escenario.
+* Verifica si toca al jugador.
 
 ### Diagrama de clases
 ![Diagrama de clases](url-del-diagrama.png)
