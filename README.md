@@ -52,14 +52,14 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 
 ![Rana](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
 
-### Ejemplo de Nivel 1
+### Nivel 1
 
-![Nivel1]()
+![Nivel1](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_1.png)
 
 
-### Ejemplo de Nivel 2
+### Nivel 2
 
-![Nivel2]()
+![Nivel2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_2.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
