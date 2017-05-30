@@ -40,17 +40,17 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 ![Diagrama de clases](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/CruzaPorElPremio.png)
 
 ### Personajes
-![Ardilla] (https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Ardilla3.png)
+![Ardilla](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Ardilla3.png)
 
-![Cerdo] (https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Cerdo3.png)
+![Cerdo](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Cerdo3.png)
 
-![Pato] (https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Patito3.png)
+![Pato](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Patito3.png)
 
-![Pato2] (https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Pato_Salvaje3.png)
+![Pato2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Pato_Salvaje3.png)
 
-![Perro] (https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Perro3.png)
+![Perro](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Perro3.png)
 
-![Rana] (https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
+![Rana](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
 
 
 ### Autor(es)
