@@ -52,6 +52,8 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 
 ![Rana](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
 
+
+
 ### Obstaculos
 
 ![Auto](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/carro2.png)
@@ -65,6 +67,8 @@ es subir en ellos para intentar cruzar el rio, si caes de alguno de ellos pierde
 una vida y regresas al inicio del nivel.
 
 
+
+
 ### Ayudas
 
 ![Monedas](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/moneda2.png)
@@ -76,14 +80,21 @@ Los corazones son vidas extra que aparecen dentro del juego, al
 atraparlas se incrementa una vida a tu marcador.
 
 
+
+
 ### Nivel 1
 
 ![Nivel1](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_1.png)
 
 
+
+
 ### Nivel 2
 
 ![Nivel2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_2.png)
+
+
+
 
 ### Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2dvw_6O51AE" frameborder="0" allowfullscreen></iframe>
