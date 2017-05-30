@@ -41,16 +41,22 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 
 ### Personajes
 ![Ardilla](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Ardilla3.png)
+Ardilla
 
 ![Cerdo](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Cerdo3.png)
+Cerdo
 
 ![Pato](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Patito3.png)
+Pato
 
 ![Pato2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Pato_Salvaje3.png)
+Ave
 
 ![Perro](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Perro3.png)
+Perro
 
 ![Rana](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
+Rana
 
 
 
