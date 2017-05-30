@@ -52,6 +52,30 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 
 ![Rana](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
 
+### Obstaculos
+
+![Auto](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/carro2.png)
+Los autos aparecen el el nivel numero 1, se mueven en diferentes direcciones 
+y se necesita esquivarlos, si un auto te toca pierdes una vida y regresas al inicio
+del nivel.
+
+![Tronco](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/tronco2.png)
+Estos objetos aparecen el el nivel 2, los troncos van por el agua y el objetivo 
+es subir en ellos para intentar cruzar el rio, si caes de alguno de ellos pierdes
+una vida y regresas al inicio del nivel.
+
+
+### Ayudas
+
+![Monedas](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/moneda2.png)
+Las monedas aparecen a lo largo del juego, al atraparlas se aumentan 
+100 puntos a tu puntaje total.
+
+![Corazones](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/corazon2.png)
+Los corazones son vidas extra que aparecen dentro del juego, al
+atraparlas se incrementa una vida a tu marcador.
+
+
 ### Nivel 1
 
 ![Nivel1](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_1.png)
@@ -61,12 +85,13 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 
 ![Nivel2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_2.png)
 
+### Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2dvw_6O51AE" frameborder="0" allowfullscreen></iframe>
+
+
 ### Autor(es)
 El autor(es) del proyecto son:
 - Sonia Virginia Hernandez Huerta (@SoniaHernandez2010)
-
-### Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2dvw_6O51AE" frameborder="0" allowfullscreen></iframe>
 
 ### Materia(s)
 - Programación Orientada a Objetos
