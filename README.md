@@ -37,7 +37,7 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 * Verifica si toca al jugador.
 
 ### Diagrama de clases
-![Diagrama de clases](url-del-diagrama.png)
+![Diagrama de clases](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/CruzaPorElPremio.png)
 
 ### Autor(es)
 El autor(es) del proyecto son:
