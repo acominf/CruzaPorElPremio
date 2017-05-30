@@ -65,6 +65,9 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 El autor(es) del proyecto son:
 - Sonia Virginia Hernandez Huerta (@SoniaHernandez2010)
 
+### Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2dvw_6O51AE" frameborder="0" allowfullscreen></iframe>
+
 ### Materia(s)
 - Programación Orientada a Objetos
 
