@@ -37,37 +37,37 @@ Se cuenta con 5 vidas iniciales, si se terminan comienzan de nuevo desde el prim
 * Verifica si toca al jugador.
 
 ### Diagrama de clases
-![Diagrama de clases](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/CruzaPorElPremio.png)
+![Diagrama de clases](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/CruzaPorElPremio.png)
 
 ### Personajes
-![Ardilla](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Ardilla3.png)
+![Ardilla](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/Ardilla3.png)
 Ardilla
 
-![Cerdo](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Cerdo3.png)
+![Cerdo](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/Cerdo3.png)
 Cerdo
 
-![Pato](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Patito3.png)
+![Pato](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/Patito3.png)
 Pato
 
-![Pato2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Pato_Salvaje3.png)
+![Pato2](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/Pato_Salvaje3.png)
 Ave
 
-![Perro](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Perro3.png)
+![Perro](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/Perro3.png)
 Perro
 
-![Rana](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/Rana3.png)
+![Rana](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/Rana3.png)
 Rana
 
 
 
 ### Obstaculos
 
-![Auto](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/carro2.png)
+![Auto](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/carro2.png)
 Los autos aparecen el el nivel numero 1, se mueven en diferentes direcciones 
 y se necesita esquivarlos, si un auto te toca pierdes una vida y regresas al inicio
 del nivel.
 
-![Tronco](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/tronco2.png)
+![Tronco](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/tronco2.png)
 Estos objetos aparecen el el nivel 2, los troncos van por el agua y el objetivo 
 es subir en ellos para intentar cruzar el rio, si caes de alguno de ellos pierdes
 una vida y regresas al inicio del nivel.
@@ -77,11 +77,11 @@ una vida y regresas al inicio del nivel.
 
 ### Ayudas
 
-![Monedas](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/moneda2.png)
+![Monedas](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/moneda2.png)
 Las monedas aparecen a lo largo del juego, al atraparlas se aumentan 
 100 puntos a tu puntaje total.
 
-![Corazones](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/corazon2.png)
+![Corazones](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/corazon2.png)
 Los corazones son vidas extra que aparecen dentro del juego, al
 atraparlas se incrementa una vida a tu marcador.
 
@@ -90,14 +90,14 @@ atraparlas se incrementa una vida a tu marcador.
 
 ### Nivel 1
 
-![Nivel1](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_1.png)
+![Nivel1](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/nivel_1.png)
 
 
 
 
 ### Nivel 2
 
-![Nivel2](https://github.com/acominf/CruzaPorElPremio/blob/master/imagenes/nivel_2.png)
+![Nivel2](https://raw.githubusercontent.com/acominf/CruzaPorElPremio/master/imagenes/nivel_2.png)
 
 
 
