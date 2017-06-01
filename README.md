@@ -106,6 +106,8 @@ atraparlas se incrementa una vida a tu marcador.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2dvw_6O51AE" frameborder="0" allowfullscreen></iframe>
 
 
+[Enlace a la ultima version del juego]
+
 ### Autor(es)
 El autor(es) del proyecto son:
 - Sonia Virginia Hernandez Huerta (@SoniaHernandez2010)
