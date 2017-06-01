@@ -106,7 +106,10 @@ atraparlas se incrementa una vida a tu marcador.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2dvw_6O51AE" frameborder="0" allowfullscreen></iframe>
 
 
-[Enlace a la ultima version del juego]
+
+[Enlace a la ultima version del juego](https://github.com/acominf/CruzaPorElPremio/releases/tag/v1.0/CruzaPorElPremio2.jar)
+
+
 
 ### Autor(es)
 El autor(es) del proyecto son:
